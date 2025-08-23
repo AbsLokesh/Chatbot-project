@@ -1,0 +1,9 @@
+chatbot-project/
+│── app.py                 # Main Streamlit app (frontend + chat logic)
+│── utils/
+│    ├── llm_client.py     # Handles Anthropic/OpenAI/Groq API calls
+│    ├── memory.py         # Conversation memory utilities
+│    └── __init__.py
+│── requirements.txt       # Dependencies
+│── .env                   # Your API keys (not pushed to git)
+│── README.md              # Documentation
