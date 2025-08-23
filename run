@@ -1,0 +1,3 @@
+cd chatbot-project
+pip install -r requirements.txt
+streamlit run app.py
